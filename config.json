@@ -1,0 +1,15 @@
+{
+  "bulkSize": 1000,
+  "origin": {
+    "host": "localhost:9200",
+    "version": "1.7",
+    "index": "twitter",
+    "type": "tweet"
+  },
+  "target": {
+    "host": "localhost:9201",
+    "version": "5.5",
+    "index": "twitter",
+    "type": "tweet"
+  }
+}
